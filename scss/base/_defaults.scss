@@ -1,0 +1,219 @@
+
+// **************************************************
+// Name: defaults.scss
+// Description: custom html element default styles
+// **************************************************
+
+
+
+// Global Setup
+// --------------------------------------------------
+
+// Box Sizing
+// -------------------------
+
+* {
+  box-sizing: border-box;
+}
+
+// Base font size
+// -------------------------
+
+html {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: $font-family--primary;
+  font-weight: $font-weight--normal;
+  color: $gray-4;
+}
+
+body {
+  background: $gray-8;
+}
+
+
+
+// Typography
+// --------------------------------------------------
+
+// Headlines
+// -------------------------
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px 0;
+  padding: 50px 0 0 0;
+  font-family: $font-family--primary;
+  line-height: 1.5;
+}
+
+h1, .h1 {
+  font-size: 3.75rem;
+  color: $gray-10;
+
+  @include mq("md") {
+  font-size: 4.75rem;
+  }
+}
+
+h2, .h2 {
+  color: $brand-2;
+  font-size: 1.85rem;
+
+  @include mq("md") {
+  font-size: 2.25rem;
+  }
+}
+
+h3, .h3 {
+  color: $brand-2;
+  font-size: 1.3rem;
+
+  @include mq("md") {
+  font-size: 1.5rem;
+  }
+}
+
+h4, .h4 {
+  font-size: 1.15rem;
+  color: $gray-3;
+}
+
+h5, .h5 {
+  font-size: 1rem;
+}
+
+// Paragraphs
+// -------------------------
+
+p {
+  font-family: $font-family--primary;
+}
+
+// Links
+// -------------------------
+
+a {
+  color: $brand-2;
+  text-decoration: none;
+  &:hover, &:focus, &:active {
+    color: $brand-1;
+    border-bottom: 1px solid $brand-1;
+  }
+}
+
+// Code Blocks
+// -------------------------
+
+pre, code {
+  font-family: $font-family--code;
+}
+
+pre {
+  border-bottom: 2px solid $gray-7;
+  border-top: 2px solid $gray-7;
+}
+
+
+// Typographic Emphasis
+// -------------------------
+
+em {
+  font-family: $font-family--primary;
+  font-weight: 400italic;
+}
+
+strong {
+  font-weight: $font-weight--bold;
+}
+
+
+
+
+
+// List Styles
+// --------------------------------------------------
+
+// Ordered and Unordered
+// -------------------------
+
+ol, ul {
+  margin: 0 0 16px 20px;
+  padding: 0;
+}
+
+ol > ol, ul > ul {
+  margin-bottom: 0;
+}
+
+
+
+// Button
+// --------------------------------------------------
+
+button {
+  font-family: $font-family--primary;
+  font-weight: $font-weight--semibold;
+  padding: 10px 30px;
+  margin: 5px;
+  border-radius: 5px;
+  background: transparent;
+  color: $brand-2;
+  border: 2px solid $brand-2;
+
+  &:hover {
+    border-color: $brand-1;
+    a {
+      color: $brand-1;
+      border-bottom: none; // removes border from default link
+    }
+  }
+}
+
+
+
+// Blockquote
+// --------------------------------------------------
+
+blockquote {
+  margin: 1rem 0 1rem 2rem;
+  padding: 0 2rem;
+  font-family: $font-family--primary;
+  font-weight: $font-weight--light;
+  font-size: 1.15rem;
+  border-left: 3px solid $gray-6;
+  color: $gray-4;
+}
+
+
+// Table
+// --------------------------------------------------
+
+table {
+  width: 100%;
+  text-align: left;
+  line-height: 2;
+  font-family: $font-family--primary;
+  margin: 1rem 0;
+  thead {
+    border-bottom: 3px solid $gray-6;
+    font-weight: $font-weight--bold;
+  }
+  tr {
+    border-bottom: 1px solid $gray-6;
+    font-weight: $font-weight--normal;
+  }
+  caption {
+    text-align: left;
+    font-weight: $font-weight--light;
+    color: $gray-5;
+  }
+}
+
+
+
+// Image (responsive)
+// --------------------------------------------------
+
+img {
+  max-width: 100%;
+}

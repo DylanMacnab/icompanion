@@ -1,0 +1,61 @@
+
+// **************************************************
+// Variables.scss
+// Description: To set global variables for scss
+// **************************************************
+
+
+
+
+// Global Color Variales (dark to light)
+// --------------------------------------------------
+
+
+// Gray Colors
+// -------------------------
+
+$gray-1:        #1c1d1e;
+$gray-2:        #38393a;
+$gray-3:        #58595a;
+$gray-4:        #676869;
+$gray-5:        #a4a5a6;
+$gray-6:        #d6d7d8;
+$gray-7:        #e1e1e1;
+$gray-8:        #ecedef;
+$gray-9:        #f6f7f8;
+$gray-10:       white;
+
+// Brand Colors (teal)
+// -------------------------
+
+$brand-1:       #008da0;
+$brand-2:       #02aac1;
+$brand-3:       #20cace;
+$brand-4:       #82e8e8;
+
+// Accent Colors (darker teal blue)
+// -------------------------
+
+$accent-1:      #1e2130;
+$accent-2:      #2b346b;
+$accent-3:      #2b3c8e;
+$accent-4:      #2d4bb5;
+
+
+
+// Global Font Variables
+// --------------------------------------------------
+
+// Font Stacks
+// -------------------------
+
+$font-family--primary    : 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family--code       : 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
+
+// Font Weights
+// -------------------------
+
+$font-weight--light      : 300;
+$font-weight--normal     : 400;
+$font-weight--semibold   : 600;
+$font-weight--bold       : 700;
