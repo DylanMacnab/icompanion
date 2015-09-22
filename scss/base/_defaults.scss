@@ -24,11 +24,11 @@ html {
   line-height: 1.5;
   font-family: $font-family--primary;
   font-weight: $font-weight--normal;
-  color: $gray-4;
+  color: $gray-7;
 }
 
 body {
-  background: $gray-8;
+  background: $brand-3;
 }
 
 
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1, .h1 {
   font-size: 3.75rem;
-  color: $gray-10;
+  color: $gray-1;
 
   @include mq("md") {
   font-size: 4.75rem;
@@ -93,24 +93,12 @@ p {
 // -------------------------
 
 a {
-  color: $brand-2;
+  color: $accent-5;
   text-decoration: none;
   &:hover, &:focus, &:active {
-    color: $brand-1;
-    border-bottom: 1px solid $brand-1;
+    color: $accent-6;
+    border-bottom: 1px solid red;
   }
-}
-
-// Code Blocks
-// -------------------------
-
-pre, code {
-  font-family: $font-family--code;
-}
-
-pre {
-  border-bottom: 2px solid $gray-7;
-  border-top: 2px solid $gray-7;
 }
 
 
@@ -151,22 +139,7 @@ ol > ol, ul > ul {
 // --------------------------------------------------
 
 button {
-  font-family: $font-family--primary;
-  font-weight: $font-weight--semibold;
-  padding: 10px 30px;
-  margin: 5px;
-  border-radius: 5px;
-  background: transparent;
-  color: $brand-2;
-  border: 2px solid $brand-2;
 
-  &:hover {
-    border-color: $brand-1;
-    a {
-      color: $brand-1;
-      border-bottom: none; // removes border from default link
-    }
-  }
 }
 
 

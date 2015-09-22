@@ -1,0 +1,58 @@
+// ********************************************
+// Name: Navbar
+// Description: styles associated with elements in navbar
+// ********************************************
+
+
+// Navbar
+// -------------------------
+.navbar {
+  background-color: $brand-3;
+  border-bottom: 2px solid $brand-1;
+  height: 70px;
+  ul, ol, li {
+    margin: 0;
+  }
+}
+
+// Navbar links layout
+// -------------------------
+
+.navbar--right {
+  float: right;
+}
+
+// Logo
+// -------------------------
+.navbar__logo {
+  padding: 15px;
+  overflow: hidden;
+  a:hover {
+    border: none;
+  }
+}
+
+
+// Links
+// -------------------------
+
+.navbar__link {
+  display: inline-block;
+  float: right;
+  padding: 25px 0;
+  margin: 0 25px;
+  height: 70px;
+  color: $gray-8;
+  font-family: $font-family--primary;
+  font-weight: $font-weight--bold;
+  font-size: 12px;
+  list-style: none;
+  text-transform: uppercase;
+  letter-spacing: .05rem;
+  &:hover {
+    border-bottom: 2px solid $accent-6;
+  }
+}
+
+// Language Picker
+// -------------------------

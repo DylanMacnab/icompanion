@@ -359,35 +359,35 @@ th {
 html {
   font-size: 1rem;
   line-height: 1.5;
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color: #676869; }
+  color: #606060; }
 
 body {
-  background: #ecedef; }
+  background: #FDD835; }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 10px 0;
   padding: 50px 0 0 0;
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   line-height: 1.5; }
 
 h1, .h1 {
   font-size: 3.75rem;
-  color: white; }
+  color: #ffffff; }
   @media (min-width: 992px) {
     h1, .h1 {
       font-size: 4.75rem; } }
 
 h2, .h2 {
-  color: #02aac1;
+  color: #FFE05C;
   font-size: 1.85rem; }
   @media (min-width: 992px) {
     h2, .h2 {
       font-size: 2.25rem; } }
 
 h3, .h3 {
-  color: #02aac1;
+  color: #FFE05C;
   font-size: 1.3rem; }
   @media (min-width: 992px) {
     h3, .h3 {
@@ -395,30 +395,23 @@ h3, .h3 {
 
 h4, .h4 {
   font-size: 1.15rem;
-  color: #58595a; }
+  color: #DDDDDD; }
 
 h5, .h5 {
   font-size: 1rem; }
 
 p {
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Open Sans", Helvetica, Arial, sans-serif; }
 
 a {
-  color: #02aac1;
+  color: #3B7893;
   text-decoration: none; }
   a:hover, a:focus, a:active {
-    color: #008da0;
-    border-bottom: 1px solid #008da0; }
-
-pre, code {
-  font-family: "Source Code Pro", Menlo, Consolas, Monaco, monospace; }
-
-pre {
-  border-bottom: 2px solid #e1e1e1;
-  border-top: 2px solid #e1e1e1; }
+    color: #285768;
+    border-bottom: 1px solid red; }
 
 em {
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 400italic; }
 
 strong {
@@ -431,46 +424,31 @@ ol, ul {
 ol > ol, ul > ul {
   margin-bottom: 0; }
 
-button {
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 600;
-  padding: 10px 30px;
-  margin: 5px;
-  border-radius: 5px;
-  background: transparent;
-  color: #02aac1;
-  border: 2px solid #02aac1; }
-  button:hover {
-    border-color: #008da0; }
-    button:hover a {
-      color: #008da0;
-      border-bottom: none; }
-
 blockquote {
   margin: 1rem 0 1rem 2rem;
   padding: 0 2rem;
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 1.15rem;
-  border-left: 3px solid #d6d7d8;
-  color: #676869; }
+  border-left: 3px solid #686868;
+  color: #A7A7A7; }
 
 table {
   width: 100%;
   text-align: left;
   line-height: 2;
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
   margin: 1rem 0; }
   table thead {
-    border-bottom: 3px solid #d6d7d8;
+    border-bottom: 3px solid #686868;
     font-weight: 700; }
   table tr {
-    border-bottom: 1px solid #d6d7d8;
+    border-bottom: 1px solid #686868;
     font-weight: 400; }
   table caption {
     text-align: left;
     font-weight: 300;
-    color: #a4a5a6; }
+    color: #929292; }
 
 img {
   max-width: 100%; }
@@ -493,7 +471,6 @@ img {
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  max-width: 960px;
   padding-left: 15px;
   padding-right: 15px; }
 
@@ -1147,3 +1124,35 @@ img {
 .container-fluid:after,
 .row:after {
   clear: both; }
+
+.navbar {
+  background-color: #FDD835;
+  border-bottom: 2px solid #FFE98D;
+  height: 70px; }
+  .navbar ul, .navbar ol, .navbar li {
+    margin: 0; }
+
+.navbar--right {
+  float: right; }
+
+.navbar__logo {
+  padding: 15px;
+  overflow: hidden; }
+  .navbar__logo a:hover {
+    border: none; }
+
+.navbar__link {
+  display: inline-block;
+  float: right;
+  padding: 25px 0;
+  margin: 0 25px;
+  height: 70px;
+  color: #3A3D3F;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  list-style: none;
+  text-transform: uppercase;
+  letter-spacing: .05rem; }
+  .navbar__link:hover {
+    border-bottom: 2px solid #285768; }

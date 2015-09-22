@@ -6,40 +6,40 @@
 
 
 
-
-// Global Color Variales (dark to light)
+// Global Color Variales (light to dark)
 // --------------------------------------------------
 
 
 // Gray Colors
 // -------------------------
 
-$gray-1:        #1c1d1e;
-$gray-2:        #38393a;
-$gray-3:        #58595a;
-$gray-4:        #676869;
-$gray-5:        #a4a5a6;
-$gray-6:        #d6d7d8;
-$gray-7:        #e1e1e1;
-$gray-8:        #ecedef;
-$gray-9:        #f6f7f8;
-$gray-10:       white;
+$gray-1:        #ffffff;
+$gray-2:        #F9F8F5;
+$gray-3:        #DDDDDD;
+$gray-4:        #A7A7A7;
+$gray-5:        #929292;
+$gray-6:        #686868;
+$gray-7:        #606060;
+$gray-8:        #3A3D3F;
 
-// Brand Colors (teal)
+
+// Brand Colors (yellow / gold)
 // -------------------------
 
-$brand-1:       #008da0;
-$brand-2:       #02aac1;
-$brand-3:       #20cace;
-$brand-4:       #82e8e8;
+$brand-1:       #FFE98D;
+$brand-2:       #FFE05C;
+$brand-3:       #FDD835;
 
-// Accent Colors (darker teal blue)
+// Accent Colors (light blue to dark blue)
 // -------------------------
 
-$accent-1:      #1e2130;
-$accent-2:      #2b346b;
-$accent-3:      #2b3c8e;
-$accent-4:      #2d4bb5;
+$accent-1:      #CAF7FC;
+$accent-2:      #ABF7FF;
+$accent-3:      #3085B5;
+$accent-4:      #147D96;
+$accent-5:      #3B7893;
+$accent-6:      #285768;
+
 
 
 
@@ -49,13 +49,11 @@ $accent-4:      #2d4bb5;
 // Font Stacks
 // -------------------------
 
-$font-family--primary    : 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$font-family--code       : 'Source Code Pro', Menlo, Consolas, Monaco, monospace;
+$font-family--primary    : 'Open Sans', Helvetica, Arial, sans-serif;
 
 // Font Weights
 // -------------------------
 
 $font-weight--light      : 300;
 $font-weight--normal     : 400;
-$font-weight--semibold   : 600;
 $font-weight--bold       : 700;
