@@ -1,0 +1,24 @@
+// **************************************************
+// Name: button.scss
+// Description: buttons styles, <a> & <button>
+// **************************************************
+
+
+// Standard Button
+// ------------------------
+
+.button {
+  display: inline-block;
+  padding: 15px 75px;
+  font-weight: $font-weight--bold;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background: linear-gradient($accent-3, $accent-5);
+  border: 1px solid $accent-6;
+  border-radius: 7px;
+  margin-top: 20px;
+  &:hover {
+    border: 1px solid $accent-6;
+  }
+}

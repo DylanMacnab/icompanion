@@ -10,12 +10,13 @@
 .hero {
   background-color: red;
   background: linear-gradient( $brand-2, $brand-3);
+  position: relative;
 
   @include mq(lg) {
     background:
-      url('/img/linegraph.svg') no-repeat 80% 100%,
+      url('/img/linegraph.svg') no-repeat 95% 90%,
       linear-gradient( $brand-2, $brand-3);
-      background-size: 1200px auto, contain;
+      background-size: 1100px auto, contain;
   }
   p {
     font-size: 19px;
@@ -27,8 +28,20 @@
 // ---------------------------
 .hero__intro {
   text-align: center;
-  padding-top: 50px;
+  padding: 50px 0;
+
   @include mq(md) {
     text-align: left;
+  }
+}
+
+.hero__phone {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+
+  @include mq("md") {
+    float: right;
+    width: 400px;
   }
 }

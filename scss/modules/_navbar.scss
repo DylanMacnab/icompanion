@@ -10,16 +10,18 @@
   background-color: $brand-3;
   border-bottom: 2px solid $brand-1;
   height: 70px;
-  ul, ol, li {
-    margin: 0;
-  }
 }
 
 // Navbar links layout
 // -------------------------
 
 .navbar--right {
-  float: right;
+  display: none; // hidden navigation on small screens
+
+  @include mq(md) {
+    float: right;
+    display: block;
+  }
 }
 
 // Logo
