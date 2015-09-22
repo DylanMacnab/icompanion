@@ -19,12 +19,15 @@
 // T O O L S : Grid System, Helpers
 
   @import "tools/_grid-system";  // from bootstrap
+  @import "tools/_containers";
+  @import "tools/_customtype"; 
 
 
 // ********************************************
 // M O D U L E : objects, patterns, modules
 
-@import "modules/_navbar"; 
+@import "modules/_navbar";
+@import "modules/_hero";
 
 
 
