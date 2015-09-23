@@ -52,7 +52,7 @@ h1, .h1 {
   color: $gray-8;
 
   @include mq("md") {
-    font-size: 45px;
+    font-size: 40px;
   }
 
   @include mq("lg") {
