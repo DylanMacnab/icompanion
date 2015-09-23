@@ -5,12 +5,69 @@
 
 
 // Navbar
-// -------------------------
+// --------------------------------------------
 .navbar {
   background-color: $brand-3;
   border-bottom: 2px solid $brand-1;
   height: 70px;
 }
+
+// Navbar Hamburger
+// -------------------------
+.navbar__burger {
+  position: absolute;
+  right: 25px;
+  top: 16px;
+  border-radius: 3px;
+  border: 1px solid $gray-8;
+  padding: 5px;
+  @include mq("md") {
+    display: none;
+  }
+  &:hover {
+    border: 1px solid $gray-8;
+    background: rgba(white, .3)
+  }
+}
+
+.line {
+  height: 3px;
+  margin: 4px 3px;
+  width: 30px;
+  display: block;
+  background: $gray-8;
+}
+
+// .navbar__burger {
+//   height: 30px;
+//   width: 30px;
+//   color: red;
+//   width: 20px;
+//   height: 4px;
+//   position: absolute;
+//   .line {
+//     display:block;
+//     width: 20px;
+//     height: 4px;
+//     position:absolute;
+//     left:0;
+//     border-radius:(4px / 2);
+//     transition: all .3s;
+//
+//     &.line-1 {
+//       top:0;
+//     }
+//     &.line-2 {
+//       top:50%;
+//     }
+//     &.line-3 {
+//       top:100%;
+//     }
+//   }
+// }
+
+
+
 
 // Navbar links layout
 // -------------------------
@@ -18,7 +75,7 @@
 .navbar--right {
   display: none; // hidden navigation on small screens
 
-  @include mq(md) {
+  @include mq("md") {
     float: right;
     display: block;
   }

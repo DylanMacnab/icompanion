@@ -22,3 +22,16 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+
+
+
+// Hamburger animation
+// ---------------------------------------------------
+
+$( document ).ready(function() {
+  var hamburger = $('#hamburger-icon');
+  hamburger.click(function() {
+     hamburger.toggleClass('active');
+     return false;
+  });
+});
