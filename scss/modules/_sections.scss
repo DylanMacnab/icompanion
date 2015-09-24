@@ -4,11 +4,54 @@
 // **************************************************
 
 
-// Introductions Sections
+// Introduction / Transition Sections
 // -------------------------------------------------
 
-
 .introduction {
+  position: relative;
   background: white;
-  padding: 25px 0;
+  padding: 80px 0 110px 0;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url('/img/logomark.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.introduction--arrow {
+  @extend .introduction;
+  &:after {
+    content: ' ';
+    height: 0;
+    width: 0;
+    position: absolute;
+    margin: 0 auto;
+    bottom: -45px;
+    right: 0;
+    left: 0;
+    border: solid transparent;
+    border-width: 25px;
+    border-top: 20px solid white;
+    z-index: 2;
+  }
+}
+
+.introduction__title {
+  font-size: 35px;
+  font-weight: $font-weight--bold;
+  margin-bottom: 5px;
+  color: $gray-8;
+}
+
+.introduction__description {
+  margin-top: 0;
+  font-size: 22px;
+  font-weight: $font-weight--normal;
+  color: $accent-3;
+}
+
+.spacer {
+  height: 400px;
+  width: 100%;
+  color: ccc;
 }

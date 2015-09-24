@@ -16,3 +16,12 @@
     max-width: 1200px;
   }
 }
+
+
+.container--navbar {
+  margin: 0 auto;
+  @include mq(md) {
+    width: 95%;
+    max-width: 1500px;
+  }
+}

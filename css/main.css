@@ -1137,8 +1137,15 @@ img {
       width: 85%;
       max-width: 1200px; } }
 
+.container--navbar {
+  margin: 0 auto; }
+  @media (min-width: 992px) {
+    .container--navbar {
+      width: 95%;
+      max-width: 1500px; } }
+
 .type--large {
-  font-size: 18px; }
+  font-size: 20px; }
 
 .type--small {
   font-size: 12px; }
@@ -1228,10 +1235,12 @@ img {
 .hero__phone {
   margin: 0 auto;
   text-align: center;
-  display: block; }
+  display: block;
+  width: 450px;
+  max-width: 90%; }
   @media (min-width: 992px) {
     .hero__phone {
-      width: 350px;
+      width: 375px;
       padding-top: 30px; } }
   @media (min-width: 1200px) {
     .hero__phone {
@@ -1252,6 +1261,43 @@ img {
   .button:hover {
     border: 1px solid #285768; }
 
-.introduction {
+.introduction, .introduction--arrow {
+  position: relative;
   background: white;
-  padding: 25px 0; }
+  padding: 80px 0 110px 0;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("/img/logomark.svg");
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.introduction--arrow:after {
+  content: ' ';
+  height: 0;
+  width: 0;
+  position: absolute;
+  margin: 0 auto;
+  bottom: -45px;
+  right: 0;
+  left: 0;
+  border: solid transparent;
+  border-width: 25px;
+  border-top: 20px solid white;
+  z-index: 2; }
+
+.introduction__title {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #3A3D3F; }
+
+.introduction__description {
+  margin-top: 0;
+  font-size: 22px;
+  font-weight: 400;
+  color: #3085B5; }
+
+.spacer {
+  height: 400px;
+  width: 100%;
+  color: ccc; }

@@ -49,9 +49,11 @@
   margin: 0 auto;
   text-align: center;
   display: block;
+  width: 450px;
+  max-width: 90%;
 
   @include mq("md") {
-    width: 350px;
+    width: 375px;
     padding-top: 30px;
   }
   @include mq("lg") {
