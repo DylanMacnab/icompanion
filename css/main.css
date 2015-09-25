@@ -1152,6 +1152,9 @@ img {
 .type--small {
   font-size: 12px; }
 
+.type-light {
+  color: #A7A7A7; }
+
 .navbar {
   background-color: #FDD835;
   border-bottom: 2px solid #FFE98D;
@@ -1293,18 +1296,18 @@ img {
   margin-bottom: 5px;
   color: #3A3D3F; }
 
-.introduction__description {
+.introduction__subHead {
   margin-top: 0;
   font-size: 20px;
   font-weight: 400;
   color: #3085B5; }
   @media (min-width: 992px) {
-    .introduction__description {
-      font-size: 24px; } }
+    .introduction__subHead {
+      font-size: 23px; } }
 
 .features {
   background: #F9F8F5;
-  padding: 50px 0;
+  padding: 50px 0 85px 0;
   text-align: center; }
   @media (min-width: 992px) {
     .features {
@@ -1321,3 +1324,34 @@ img {
 .feature__image {
   display: block;
   margin: 0 auto; }
+
+.technology {
+  background-color: #CAF7FC;
+  background: -webkit-linear-gradient(#CAF7FC, #ABF7FF);
+  background: linear-gradient(#CAF7FC, #ABF7FF);
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 0 85px; }
+
+.technology__title {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #3A3D3F; }
+
+.technology__subHead {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #3085B5; }
+  @media (min-width: 992px) {
+    .technology__subHead {
+      font-size: 23px; } }
+
+.technology__feature {
+  padding: 25px 20px; }
+  .technology__feature h4 {
+    padding-top: 15px; }
+  .technology__feature p {
+    color: #147D96;
+    font-size: 14px; }

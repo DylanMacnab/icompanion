@@ -43,13 +43,13 @@
   color: $gray-8;
 }
 
-.introduction__description {
+.introduction__subHead {
   margin-top: 0;
   font-size: 20px;
   font-weight: $font-weight--normal;
   color: $accent-3;
   @include mq(md) {
-    font-size: 24px;
+    font-size: 23px;
   }
 }
 
@@ -60,7 +60,7 @@
 
 .features {
   background: $gray-2;
-  padding: 50px 0;
+  padding: 50px 0 85px 0;
   text-align: center;
   @include mq(md) {
     text-align: left;
@@ -81,4 +81,45 @@
 .feature__image {
   display: block;
   margin: 0 auto;
+}
+
+
+
+// Technology Section
+// -------------------------------------------------
+
+.technology {
+  background-color: $accent-1;
+  background: linear-gradient( $accent-1, $accent-2);
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 0 85px;
+}
+
+.technology__title {
+  font-size: 35px;
+  font-weight: $font-weight--bold;
+  margin-bottom: 5px;
+  color: $gray-8;
+}
+
+.technology__subHead {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: $font-weight--normal;
+  color: $accent-3;
+  @include mq(md) {
+    font-size: 23px;
+  }
+}
+
+.technology__feature {
+  padding: 25px 20px;
+  h4 {
+    padding-top: 15px;
+  }
+  p {
+    color: $accent-4;;
+    font-size: 14px;
+  }
 }
