@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="335px" height="335px" viewBox="0 0 335 335" enable-background="new 0 0 335 335" xml:space="preserve">
+<pattern  x="-138.5" y="-228.5" width="165.041" height="110.907" patternUnits="userSpaceOnUse" id="New_Pattern_Swatch_12" viewBox="0 -110.907 165.041 110.907" overflow="visible">
+	<g>
+		<polygon fill="none" points="0,0 165.042,0 165.042,-110.907 0,-110.907 		"/>
+		<polygon fill="#F2D648" points="165.042,0 0,0 0,-110.907 165.042,-110.907 		"/>
+	</g>
+</pattern>
+<g>
+	<polyline fill="none" stroke="#364454" stroke-width="3.149" stroke-miterlimit="10" points="10.44,170.628 62.794,184.71 
+		115.148,145.382 167.502,82.327 219.855,224.515 272.209,167.761 324.562,181.765 	"/>
+	<path fill="#FFFFFF" stroke="#364454" stroke-width="4.1987" stroke-miterlimit="10" d="M17.485,170.618
+		c0,3.889-3.154,7.051-7.045,7.051c-3.89,0-7.044-3.162-7.044-7.051c0-3.885,3.154-7.033,7.044-7.033
+		C14.331,163.585,17.485,166.733,17.485,170.618z"/>
+	<path fill="#FFFFFF" stroke="#364454" stroke-width="4.1987" stroke-miterlimit="10" d="M69.836,184.706
+		c0,3.895-3.154,7.045-7.039,7.045c-3.895,0-7.044-3.15-7.044-7.045c0-3.889,3.149-7.037,7.044-7.037
+		C66.682,177.669,69.836,180.817,69.836,184.706z"/>
+	<path fill="#FFFFFF" stroke="#364454" stroke-width="4.1987" stroke-miterlimit="10" d="M122.189,145.376
+		c0,3.885-3.149,7.047-7.039,7.047c-3.891,0-7.045-3.162-7.045-7.047c0-3.889,3.154-7.037,7.045-7.037
+		C119.04,138.339,122.189,141.487,122.189,145.376z"/>
+	<path fill="#FFFFFF" stroke="#364454" stroke-width="4.1987" stroke-miterlimit="10" d="M174.545,82.327
+		c0,3.893-3.154,7.047-7.045,7.047c-3.889,0-7.043-3.154-7.043-7.047c0-3.889,3.154-7.045,7.043-7.045
+		C171.391,75.282,174.545,78.438,174.545,82.327z"/>
+	<path fill="#FFFFFF" stroke="#364454" stroke-width="4.1987" stroke-miterlimit="10" d="M226.898,224.517
+		c0,3.891-3.154,7.043-7.043,7.043c-3.89,0-7.044-3.152-7.044-7.043c0-3.885,3.154-7.043,7.044-7.043
+		C223.744,217.474,226.898,220.632,226.898,224.517z"/>
+	<path fill="#FFFFFF" stroke="#364454" stroke-width="4.1987" stroke-miterlimit="10" d="M279.252,167.763
+		c0,3.893-3.154,7.041-7.039,7.041c-3.896,0-7.047-3.148-7.047-7.041c0-3.889,3.151-7.045,7.047-7.045
+		C276.098,160.718,279.252,163.874,279.252,167.763z"/>
+	<path fill="#FFFFFF" stroke="#364454" stroke-width="4.1987" stroke-miterlimit="10" d="M331.604,181.767
+		c0,3.889-3.154,7.041-7.04,7.041c-3.894,0-7.044-3.152-7.044-7.041s3.15-7.047,7.044-7.047
+		C328.449,174.72,331.604,177.878,331.604,181.767z"/>
+</g>
+<g>
+	<polyline fill="none" stroke="url(#New_Pattern_Swatch_12)" stroke-width="3.149" stroke-miterlimit="10" points="10.44,194.876 
+		62.794,160.718 115.148,181.765 167.502,128.382 219.855,172.765 272.209,192.009 324.562,201.347 	"/>
+	<path fill="#FFFFFF" stroke="url(#New_Pattern_Swatch_12)" stroke-width="4.1987" stroke-miterlimit="10" d="M17.485,194.866
+		c0,3.889-3.154,7.051-7.045,7.051c-3.89,0-7.044-3.162-7.044-7.051c0-3.885,3.154-7.033,7.044-7.033
+		C14.331,187.833,17.485,190.981,17.485,194.866z"/>
+	<path fill="#FFFFFF" stroke="url(#New_Pattern_Swatch_12)" stroke-width="4.1987" stroke-miterlimit="10" d="M69.836,160.714
+		c0,3.893-3.154,7.045-7.039,7.045c-3.895,0-7.044-3.152-7.044-7.045c0-3.891,3.149-7.039,7.044-7.039
+		C66.682,153.675,69.836,156.823,69.836,160.714z"/>
+	<path fill="#FFFFFF" stroke="url(#New_Pattern_Swatch_12)" stroke-width="4.1987" stroke-miterlimit="10" d="M122.189,181.759
+		c0,3.885-3.149,7.047-7.039,7.047c-3.891,0-7.045-3.162-7.045-7.047c0-3.889,3.154-7.037,7.045-7.037
+		C119.04,174.722,122.189,177.87,122.189,181.759z"/>
+	
+		<circle fill="#FFFFFF" stroke="url(#New_Pattern_Swatch_12)" stroke-width="4.1987" stroke-miterlimit="10" cx="167.501" cy="128.382" r="7.044"/>
+	<path fill="#FFFFFF" stroke="url(#New_Pattern_Swatch_12)" stroke-width="4.1987" stroke-miterlimit="10" d="M226.898,172.765
+		c0,3.891-3.154,7.043-7.043,7.043c-3.89,0-7.044-3.152-7.044-7.043c0-3.885,3.154-7.043,7.044-7.043
+		C223.744,165.722,226.898,168.88,226.898,172.765z"/>
+	<path fill="#FFFFFF" stroke="url(#New_Pattern_Swatch_12)" stroke-width="4.1987" stroke-miterlimit="10" d="M279.252,192.011
+		c0,3.893-3.154,7.041-7.039,7.041c-3.896,0-7.047-3.148-7.047-7.041c0-3.889,3.151-7.045,7.047-7.045
+		C276.098,184.966,279.252,188.122,279.252,192.011z"/>
+	<path fill="#FFFFFF" stroke="url(#New_Pattern_Swatch_12)" stroke-width="4.1987" stroke-miterlimit="10" d="M331.604,201.349
+		c0,3.889-3.154,7.041-7.04,7.041c-3.894,0-7.044-3.152-7.044-7.041s3.15-7.047,7.044-7.047
+		C328.449,194.302,331.604,197.46,331.604,201.349z"/>
+</g>
+</svg>

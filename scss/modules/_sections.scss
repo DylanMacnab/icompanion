@@ -45,13 +45,40 @@
 
 .introduction__description {
   margin-top: 0;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: $font-weight--normal;
   color: $accent-3;
+  @include mq(md) {
+    font-size: 24px;
+  }
 }
 
-.spacer {
-  height: 400px;
-  width: 100%;
-  color: ccc;
+
+
+// Features Section
+// -------------------------------------------------
+
+.features {
+  background: $gray-2;
+  padding: 50px 0;
+  text-align: center;
+  @include mq(md) {
+    text-align: left;
+  }
+}
+
+.feature {
+  border-bottom: 1px solid $gray-3;
+  &:last-of-type {
+    border-bottom: none;
+  }
+}
+
+.feature__description {
+  padding: 60px 0 0 0;
+}
+
+.feature__image {
+  display: block;
+  margin: 0 auto;
 }

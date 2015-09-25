@@ -20,6 +20,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/FD8129C3D04B8F34.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/FD8129C3D04B8F34.png",
+		"outputAbbreviatedPath": "\/img\/FD8129C3D04B8F34.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/feature-profile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66224,
+		"inputAbbreviatedPath": "\/img\/feature-profile.png",
+		"outputAbbreviatedPath": "\/img\/feature-profile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/hero-phone.png": {
 		"fileType": 32768,
 		"ignore": 0,
