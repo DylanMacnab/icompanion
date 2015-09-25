@@ -94,6 +94,9 @@
   margin: 0 auto;
   text-align: center;
   padding: 50px 0 85px;
+  img {
+    height: 100px;
+  }
 }
 
 .technology__title {
@@ -122,4 +125,87 @@
     color: $accent-4;;
     font-size: 14px;
   }
+}
+
+
+// Services Section
+// -------------------------------------------------
+
+.services {
+  background: linear-gradient($accent-4, darken($accent-5, 15%));
+  padding: 50px 0 150px 0;
+  text-align: center;
+}
+
+.services__title {
+  font-size: 35px;
+  font-weight: $font-weight--bold;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.services__subHead {
+  margin-top: 0;
+  padding-bottom: 50px;
+  font-size: 20px;
+  font-weight: $font-weight--normal;
+  color: $brand-2;
+  @include mq(md) {
+    font-size: 23px;
+  }
+}
+
+[class^="services__feature--"] {
+  display: block;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: .5s;
+  position: relative;
+  &:hover {
+    box-shadow: 0 0 20px 10px rgba(black, .2);
+    z-index: 100;
+    .services__feature__description,
+    .services__feature__title {
+      opacity: 1;
+    }
+    .services__feature__overlay {
+      background: rgba(darken($brand-3, 10%), .9)
+    }
+  }
+}
+
+.services__feature--senior {
+  background-image: url('/img/services-senior.jpg');
+}
+.services__feature--student {
+  background-image: url('/img/services-student.jpg');
+}
+.services__feature--athlete {
+  background-image: url('/img/services-athlete.jpg');
+}
+.services__feature--patient {
+  background-image: url('/img/services-patient.jpg');
+}
+
+.services__feature__description,
+.services__feature__title {
+  opacity: 0;
+  color: white;
+  text-shadow: 0 0 1px rgba(black, .5);
+  top: 0;
+  bottom: 0;
+  transition: .05s;
+}
+
+.services__feature__overlay {
+  height: 100%;
+  width: 100%;
+  display: absolute;
+  opacity: 1;
+  background-color: rgba($brand-3, .4);
+  transition: .5s;
+  padding: 20px;
 }

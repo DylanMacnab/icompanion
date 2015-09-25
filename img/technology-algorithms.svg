@@ -5,17 +5,17 @@
 	 width="124px" height="133.666px" viewBox="0 0 124 133.666" enable-background="new 0 0 124 133.666" xml:space="preserve">
 <g>
 	<g>
-		
+
 			<line fill="none" stroke="#3085B5" stroke-width="2.9671" stroke-miterlimit="10" x1="61.877" y1="18.652" x2="61.877" y2="72.939"/>
-		
+
 			<line fill="none" stroke="#3085B5" stroke-width="2.9671" stroke-miterlimit="10" x1="20.928" y1="103.25" x2="20.928" y2="86.589"/>
-		
+
 			<line fill="none" stroke="#3085B5" stroke-width="2.9671" stroke-miterlimit="10" x1="74.084" y1="72.939" x2="90.744" y2="72.939"/>
-		
+
 			<line fill="none" stroke="#3085B5" stroke-width="2.9671" stroke-miterlimit="10" x1="30.308" y1="72.939" x2="51.512" y2="72.939"/>
-		
+
 			<line fill="none" stroke="#3085B5" stroke-width="2.9671" stroke-miterlimit="10" x1="30.308" y1="112.525" x2="51.512" y2="112.525"/>
-		
+
 			<line fill="none" stroke="#3085B5" stroke-width="2.9671" stroke-miterlimit="10" x1="61.877" y1="72.939" x2="98.994" y2="107.599"/>
 	</g>
 	<circle fill="#FFFFFF" stroke="#3085B5" stroke-width="3.9533" stroke-miterlimit="10" cx="61.877" cy="30.933" r="20.053"/>
@@ -45,17 +45,17 @@
 				c-0.409-0.408-0.408-1.074,0.002-1.48C69.11,19.072,69.377,18.97,69.647,18.97z"/>
 		</g>
 	</g>
-	
+
 		<rect x="11.92" y="60.099" fill="#FFFFFF" stroke="#3085B5" stroke-width="3.9533" stroke-miterlimit="10" width="25.71" height="25.709"/>
-	
+
 		<rect x="12.076" y="94.744" fill="#FFFFFF" stroke="#3085B5" stroke-width="3.9533" stroke-miterlimit="10" width="25.71" height="25.709"/>
-	
+
 		<rect x="86" y="60.099" fill="#FFFFFF" stroke="#3085B5" stroke-width="3.9533" stroke-miterlimit="10" width="25.71" height="25.709"/>
-	
+
 		<rect x="49.014" y="94.744" fill="#FFFFFF" stroke="#3085B5" stroke-width="3.9533" stroke-miterlimit="10" width="25.71" height="25.709"/>
-	
+
 		<rect x="48.96" y="60.099" fill="#FFFFFF" stroke="#3085B5" stroke-width="3.9533" stroke-miterlimit="10" width="25.71" height="25.709"/>
-	
+
 		<rect x="86.139" y="94.744" fill="#FFFFFF" stroke="#3085B5" stroke-width="3.9533" stroke-miterlimit="10" width="25.71" height="25.711"/>
 </g>
 </svg>

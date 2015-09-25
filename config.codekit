@@ -53,6 +53,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/services-athlete.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15151,
+		"inputAbbreviatedPath": "\/img\/services-athlete.jpg",
+		"outputAbbreviatedPath": "\/img\/services-athlete.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/services-patient.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18548,
+		"inputAbbreviatedPath": "\/img\/services-patient.jpg",
+		"outputAbbreviatedPath": "\/img\/services-patient.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/services-senior.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26341,
+		"inputAbbreviatedPath": "\/img\/services-senior.jpg",
+		"outputAbbreviatedPath": "\/img\/services-senior.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/services-student.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16444,
+		"inputAbbreviatedPath": "\/img\/services-student.jpg",
+		"outputAbbreviatedPath": "\/img\/services-student.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
