@@ -132,7 +132,9 @@
 // -------------------------------------------------
 
 .services {
-  background: linear-gradient($accent-4, darken($accent-5, 15%));
+  background:
+    url('/img/linegraph-bg.svg'),
+    linear-gradient(to left, #203966, $accent-4);
   padding: 50px 0 150px 0;
   text-align: center;
 }
@@ -160,7 +162,7 @@
   height: 300px;
   background-position: center;
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   background-repeat: no-repeat;
   transition: .5s;
   position: relative;
@@ -195,17 +197,24 @@
   opacity: 0;
   color: white;
   text-shadow: 0 0 1px rgba(black, .5);
+  transition: .05s;
+}
+
+.services__feature__container {
+  position: absolute;
   top: 0;
   bottom: 0;
-  transition: .05s;
+  right: 0;
+  left: 0;
+  margin: auto;
 }
 
 .services__feature__overlay {
   height: 100%;
   width: 100%;
-  display: absolute;
+  position: absolute;
   opacity: 1;
-  background-color: rgba($brand-3, .4);
+  background-color: rgba($brand-3, .3);
   transition: .5s;
   padding: 20px;
 }
