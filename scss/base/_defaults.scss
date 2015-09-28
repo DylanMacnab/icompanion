@@ -39,7 +39,7 @@ body {
 // Headlines
 // -------------------------
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4 {
   margin: 0 0 10px 0;
   padding: 50px 0 0 0;
   font-family: $font-family--primary;
@@ -85,7 +85,9 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 1rem;
+  font-size: .9rem;
+  text-transform: uppercase;
+  margin-top: 0;
 }
 
 // Paragraphs
@@ -144,11 +146,6 @@ ol > ol, ul > ul {
 
 // Button
 // --------------------------------------------------
-
-button {
-
-}
-
 
 
 // Blockquote

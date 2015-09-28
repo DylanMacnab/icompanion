@@ -366,7 +366,7 @@ html {
 body {
   background: #FDD835; }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4 {
   margin: 0 0 10px 0;
   padding: 50px 0 0 0;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -403,7 +403,9 @@ h4, .h4 {
   color: #3085B5; }
 
 h5, .h5 {
-  font-size: 1rem; }
+  font-size: .9rem;
+  text-transform: uppercase;
+  margin-top: 0; }
 
 p {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -1157,7 +1159,7 @@ img {
   font-size: 12px; }
 
 .type-light {
-  color: #A7A7A7; }
+  color: #929292; }
 
 .navbar {
   background-color: #FDD835;
@@ -1436,7 +1438,73 @@ img {
   width: 100%;
   position: absolute;
   opacity: 1;
-  background-color: rgba(253, 216, 53, 0.3);
+  background-color: rgba(253, 216, 53, 0.25);
   -webkit-transition: .5s;
           transition: .5s;
   padding: 20px; }
+
+.licensing {
+  background: -webkit-linear-gradient(#CAF7FC, #ABF7FF);
+  background: linear-gradient(#CAF7FC, #ABF7FF);
+  padding: 50px 0 85px 0;
+  text-align: center; }
+  @media (min-width: 992px) {
+    .licensing {
+      text-align: left; } }
+  .licensing p {
+    color: #147D96;
+    font-size: 14px; }
+  .licensing h4 {
+    color: #3085B5;
+    padding-top: 15px; }
+
+.licensing__icon {
+  padding-top: 40px; }
+  @media (min-width: 992px) {
+    .licensing__icon {
+      padding: 40px 25px 60px 0;
+      float: left; } }
+
+.licensing__title {
+  color: #3A3D3F;
+  text-align: center; }
+
+p.licensing__subhead {
+  text-align: center;
+  font-size: 20px;
+  color: #3085B5;
+  margin-top: 0;
+  padding-bottom: 25px; }
+  @media (min-width: 992px) {
+    p.licensing__subhead {
+      font-size: 23px; } }
+
+.team {
+  background: #F9F8F5;
+  padding: 90px 0;
+  text-align: center; }
+  .team h4 {
+    font-size: 23px;
+    padding-top: 35px;
+    margin-bottom: 5px; }
+  .team p {
+    color: #929292; }
+
+.team__avatar {
+  background-color: #3085B5;
+  border: 5px solid #3085B5;
+  border-radius: 50%;
+  height: 175px;
+  width: 175px;
+  margin-top: 40px; }
+
+.contact {
+  background: -webkit-linear-gradient(#FFE98D, #FDD835);
+  background: linear-gradient(#FFE98D, #FDD835);
+  text-align: center; }
+
+.contact__title {
+  color: #3A3D3F; }
+
+.contact__subHead {
+  font-size: 23px; }

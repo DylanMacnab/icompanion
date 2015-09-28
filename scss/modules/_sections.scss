@@ -214,7 +214,99 @@
   width: 100%;
   position: absolute;
   opacity: 1;
-  background-color: rgba($brand-3, .3);
+  background-color: rgba($brand-3, .25);
   transition: .5s;
   padding: 20px;
+}
+
+
+
+// Licensing Section
+// -------------------------------------------------
+
+.licensing {
+  background: linear-gradient($accent-1, $accent-2);
+  padding: 50px 0 85px 0;
+  text-align: center;
+  @include mq(md) {
+    text-align: left;
+  }
+  p {
+    color: $accent-4;
+    font-size: 14px;
+  }
+  h4 {
+    color: $accent-3;
+    padding-top: 15px;
+  }
+}
+
+.licensing__icon {
+  padding-top: 40px;
+  @include mq(md) {
+    padding: 40px 25px 60px 0;
+    float: left;
+  }
+}
+
+.licensing__title {
+  color: $gray-8;
+  text-align: center;
+}
+
+p.licensing__subhead {
+  text-align: center;
+  font-size: 20px;
+  color: $accent-3;
+  margin-top: 0;
+  padding-bottom: 25px;
+  @include mq(md) {
+    font-size: 23px;
+  }
+}
+
+// Team Section
+// -------------------------------------------------
+
+.team {
+  background: $gray-2;
+  padding: 90px 0;
+  text-align: center;
+  h4 {
+    font-size: 23px;
+    padding-top: 35px;
+    margin-bottom: 5px;
+  }
+  p {
+    color: $gray-5;
+  }
+}
+
+.team__avatar {
+  background-color: $accent-3;
+  border: 5px solid $accent-3;
+  border-radius: 50%;
+  height: 175px;
+  width: 175px;
+  margin-top: 40px;
+}
+
+
+
+// Contact Section
+// -------------------------------------------------
+
+.contact {
+  background:
+    linear-gradient($brand-1, $brand-3);
+  text-align: center;
+
+}
+
+.contact__title {
+  color: $gray-8;
+}
+
+.contact__subHead {
+  font-size: 23px;
 }
