@@ -68,7 +68,7 @@
 }
 
 .feature {
-  border-bottom: 1px solid $gray-3;
+  border-bottom: 1px solid darken($gray-2, 10%);
   &:last-of-type {
     border-bottom: none;
   }
@@ -297,16 +297,38 @@ p.licensing__subhead {
 // -------------------------------------------------
 
 .contact {
+  padding: 50px 0 90px 0;
   background:
-    linear-gradient($brand-1, $brand-3);
-  text-align: center;
-
+    linear-gradient($brand-3, $brand-1);
+  @include mq(md) {
+    background:
+      linear-gradient($brand-3-transparent, $brand-1-transparent),
+      url('/img/contact-bg-md.jpg') no-repeat center center;
+      background-size: cover;
+    }
+  @include mq(lg) {
+    background:
+      linear-gradient($brand-3-transparent, $brand-1-transparent),
+      url('/img/contact-bg.jpg') no-repeat center center;
+      background-size: cover;
+  }
 }
 
 .contact__title {
   color: $gray-8;
+  margin-bottom: 0;
+  text-align: center;
+  @include mq(md) {
+    text-align: left;
+  }
 }
 
 .contact__subHead {
+  margin-top: 0;
   font-size: 23px;
+  padding-bottom: 30px;
+  text-align: center;
+  @include mq(md) {
+    text-align: left;
+  }
 }

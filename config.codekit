@@ -20,6 +20,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/contact-bg-md.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32789,
+		"inputAbbreviatedPath": "\/img\/contact-bg-md.jpg",
+		"outputAbbreviatedPath": "\/img\/contact-bg-md.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/contact-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25863,
+		"inputAbbreviatedPath": "\/img\/contact-bg.jpg",
+		"outputAbbreviatedPath": "\/img\/contact-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/FD8129C3D04B8F34.png": {
 		"fileType": 32768,
 		"ignore": 0,
