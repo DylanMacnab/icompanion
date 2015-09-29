@@ -273,9 +273,12 @@ p.licensing__subhead {
   padding: 90px 0;
   text-align: center;
   h4 {
-    font-size: 23px;
+    font-size: 20px;
     padding-top: 35px;
     margin-bottom: 5px;
+    @include mq(md) {
+      font-size: 23px;
+    }
   }
   p {
     color: $gray-5;
@@ -297,19 +300,19 @@ p.licensing__subhead {
 // -------------------------------------------------
 
 .contact {
-  padding: 50px 0 90px 0;
+  padding: 50px 0 120px 0;
   background:
-    linear-gradient($brand-3, $brand-1);
+    linear-gradient($brand-3, $brand-2);
   @include mq(md) {
     background:
-      linear-gradient($brand-3-transparent, $brand-1-transparent),
+      linear-gradient($brand-1-transparent, $brand-3-transparent),
       url('/img/contact-bg-md.jpg') no-repeat center center;
       background-size: cover;
     }
   @include mq(lg) {
     background:
-      linear-gradient($brand-3-transparent, $brand-1-transparent),
-      url('/img/contact-bg.jpg') no-repeat center center;
+      linear-gradient($brand-1-transparent, $brand-3-transparent),
+      url('/img/contact-bg.jpg') no-repeat top center;
       background-size: cover;
   }
 }
@@ -325,10 +328,11 @@ p.licensing__subhead {
 
 .contact__subHead {
   margin-top: 0;
-  font-size: 23px;
+  font-size: 20px;
   padding-bottom: 30px;
   text-align: center;
   @include mq(md) {
     text-align: left;
+    font-size: 23px;
   }
 }

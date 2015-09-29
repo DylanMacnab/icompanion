@@ -1170,10 +1170,10 @@ img {
       width: 85%;
       max-width: 1200px; } }
 
-.container--navbar {
+.container--wide {
   margin: 0 auto; }
   @media (min-width: 992px) {
-    .container--navbar {
+    .container--wide {
       width: 95%;
       max-width: 1500px; } }
 
@@ -1185,6 +1185,12 @@ img {
 
 .type-light {
   color: #929292; }
+
+.right {
+  float: right; }
+
+.no-m {
+  margin: 0; }
 
 .navbar {
   background-color: #FDD835;
@@ -1240,6 +1246,14 @@ img {
   letter-spacing: .05rem; }
   .navbar__link:hover {
     border-bottom: 2px solid #285768; }
+
+.footer {
+  background: #FDD835;
+  padding: 15px 0 15px 0;
+  line-height: 1; }
+  .footer p {
+    padding-top: 15px;
+    font-size: 14px; }
 
 .hero {
   background-color: red;
@@ -1531,9 +1545,12 @@ p.licensing__subhead {
   padding: 90px 0;
   text-align: center; }
   .team h4 {
-    font-size: 23px;
+    font-size: 20px;
     padding-top: 35px;
     margin-bottom: 5px; }
+    @media (min-width: 992px) {
+      .team h4 {
+        font-size: 23px; } }
   .team p {
     color: #929292; }
 
@@ -1546,18 +1563,18 @@ p.licensing__subhead {
   margin-top: 40px; }
 
 .contact {
-  padding: 50px 0 90px 0;
-  background: -webkit-linear-gradient(#FDD835, #FFE98D);
-  background: linear-gradient(#FDD835, #FFE98D); }
+  padding: 50px 0 120px 0;
+  background: -webkit-linear-gradient(#FDD835, #FFE05C);
+  background: linear-gradient(#FDD835, #FFE05C); }
   @media (min-width: 992px) {
     .contact {
-      background: -webkit-linear-gradient(rgba(253, 216, 53, 0.1), rgba(255, 233, 151, 0.3)), url("/img/contact-bg-md.jpg") no-repeat center center;
-      background: linear-gradient(rgba(253, 216, 53, 0.1), rgba(255, 233, 151, 0.3)), url("/img/contact-bg-md.jpg") no-repeat center center;
+      background: -webkit-linear-gradient(rgba(255, 233, 151, 0.3), rgba(253, 216, 53, 0.1)), url("/img/contact-bg-md.jpg") no-repeat center center;
+      background: linear-gradient(rgba(255, 233, 151, 0.3), rgba(253, 216, 53, 0.1)), url("/img/contact-bg-md.jpg") no-repeat center center;
       background-size: cover; } }
   @media (min-width: 1200px) {
     .contact {
-      background: -webkit-linear-gradient(rgba(253, 216, 53, 0.1), rgba(255, 233, 151, 0.3)), url("/img/contact-bg.jpg") no-repeat center center;
-      background: linear-gradient(rgba(253, 216, 53, 0.1), rgba(255, 233, 151, 0.3)), url("/img/contact-bg.jpg") no-repeat center center;
+      background: -webkit-linear-gradient(rgba(255, 233, 151, 0.3), rgba(253, 216, 53, 0.1)), url("/img/contact-bg.jpg") no-repeat top center;
+      background: linear-gradient(rgba(255, 233, 151, 0.3), rgba(253, 216, 53, 0.1)), url("/img/contact-bg.jpg") no-repeat top center;
       background-size: cover; } }
 
 .contact__title {
@@ -1570,9 +1587,10 @@ p.licensing__subhead {
 
 .contact__subHead {
   margin-top: 0;
-  font-size: 23px;
+  font-size: 20px;
   padding-bottom: 30px;
   text-align: center; }
   @media (min-width: 992px) {
     .contact__subHead {
-      text-align: left; } }
+      text-align: left;
+      font-size: 23px; } }
