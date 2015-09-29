@@ -1245,6 +1245,7 @@ img {
   text-transform: uppercase;
   letter-spacing: .05rem; }
   .navbar__link:hover {
+    color: #3A3D3F;
     border-bottom: 2px solid #285768; }
 
 .footer {

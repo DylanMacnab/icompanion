@@ -38,36 +38,6 @@
   background: $gray-8;
 }
 
-// .navbar__burger {
-//   height: 30px;
-//   width: 30px;
-//   color: red;
-//   width: 20px;
-//   height: 4px;
-//   position: absolute;
-//   .line {
-//     display:block;
-//     width: 20px;
-//     height: 4px;
-//     position:absolute;
-//     left:0;
-//     border-radius:(4px / 2);
-//     transition: all .3s;
-//
-//     &.line-1 {
-//       top:0;
-//     }
-//     &.line-2 {
-//       top:50%;
-//     }
-//     &.line-3 {
-//       top:100%;
-//     }
-//   }
-// }
-
-
-
 
 // Navbar links layout
 // -------------------------
@@ -109,9 +79,7 @@
   text-transform: uppercase;
   letter-spacing: .05rem;
   &:hover {
+    color: $gray-8;
     border-bottom: 2px solid $accent-6;
   }
 }
-
-// Language Picker
-// -------------------------
