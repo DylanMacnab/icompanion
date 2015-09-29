@@ -56,9 +56,6 @@
 .navbar__logo {
   padding: 15px;
   overflow: hidden;
-  a:hover {
-    border: none;
-  }
 }
 
 
@@ -78,6 +75,7 @@
   list-style: none;
   text-transform: uppercase;
   letter-spacing: .05rem;
+  border-bottom: 2px solid transparent;
   &:hover {
     color: $gray-8;
     border-bottom: 2px solid $accent-6;

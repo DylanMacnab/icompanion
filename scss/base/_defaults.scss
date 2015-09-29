@@ -104,9 +104,10 @@ p {
 a {
   color: $accent-5;
   text-decoration: none;
+  transition: .3s;
   &:hover, &:focus, &:active {
     color: $accent-6;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid $accent-4;
     cursor: pointer;
   }
 }

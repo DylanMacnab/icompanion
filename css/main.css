@@ -413,10 +413,12 @@ p {
 
 a {
   color: #3B7893;
-  text-decoration: none; }
+  text-decoration: none;
+  -webkit-transition: .3s;
+          transition: .3s; }
   a:hover, a:focus, a:active {
     color: #285768;
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid #147D96;
     cursor: pointer; }
 
 em {
@@ -1192,6 +1194,11 @@ img {
 .no-m {
   margin: 0; }
 
+.link-plain {
+  border: none; }
+  .link-plain:hover {
+    border: none; }
+
 .navbar {
   background-color: #FDD835;
   border-bottom: 2px solid #FFE98D;
@@ -1228,8 +1235,6 @@ img {
 .navbar__logo {
   padding: 15px;
   overflow: hidden; }
-  .navbar__logo a:hover {
-    border: none; }
 
 .navbar__link {
   display: inline-block;
@@ -1243,7 +1248,8 @@ img {
   font-size: 12px;
   list-style: none;
   text-transform: uppercase;
-  letter-spacing: .05rem; }
+  letter-spacing: .05rem;
+  border-bottom: 2px solid transparent; }
   .navbar__link:hover {
     color: #3A3D3F;
     border-bottom: 2px solid #285768; }
@@ -1312,7 +1318,7 @@ img {
   -webkit-transition: .3s;
           transition: .3s; }
   .button:hover {
-    border: 1px solid #147D96;
+    border: 1px solid #3085B5;
     box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.08); }
 
 .button--full {
@@ -1331,7 +1337,7 @@ img {
   -webkit-transition: .3s;
           transition: .3s; }
   .button--full:hover {
-    border: 1px solid #147D96;
+    border: 1px solid #3085B5;
     box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.08); }
 
 .introduction, .introduction--arrow {

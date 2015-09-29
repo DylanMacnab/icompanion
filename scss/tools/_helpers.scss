@@ -25,3 +25,17 @@
 .no-m {
   margin: 0;
 }
+
+
+
+// Image links
+// ---------------------------------------------------
+
+// No hover state or anchor effect
+// -------------------------------
+.link-plain {
+  border: none;
+  &:hover {
+    border: none;
+  }
+}
