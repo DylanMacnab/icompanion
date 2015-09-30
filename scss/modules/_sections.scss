@@ -4,22 +4,91 @@
 // **************************************************
 
 
-// Introduction / Transition Sections
+// Section Spacing
+// ---------------------------------------------------
+
+
+// Space--Section
+// ------------------------
+.space--section {
+  padding: 95px 0;
+}
+
+.space--section--xBottom {
+  padding-top: 95px;
+  padding-bottom: 130px;
+}
+
+
+// Space--inner
+// -------------------------
+.space--inner {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.space--innerSm {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+
+// Section Typography
+// ---------------------------------------------------
+
+
+// Section Titles
+// -------------------
+.section__title {
+  font-weight: $font-weight--bold;
+  margin-bottom: 5px;
+  color: $gray-8;
+}
+
+.section__title--light {
+  @extend .section__title;
+  color: white;
+}
+
+
+// Section SubHeadings
+// -------------------
+.section__subHead {
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 20px;
+  font-weight: $font-weight--normal;
+  color: $accent-3;
+  @include mq(md) {
+    font-size: 23px;
+  }
+}
+
+.section__subHead--dark {
+  @extend .section__subHead;
+  color: $gray-7;
+}
+
+.section__subHead--brand {
+  @extend .section__subHead;
+  color: $brand-2;
+}
+
+
+// -------------------------------------------------
+// Intro for Sections - with background branding
 // -------------------------------------------------
 
-.introduction {
+.section__intro {
   position: relative;
   background: white;
-  padding: 80px 0 110px 0;
   margin: 0 auto;
   text-align: center;
   background-image: url('/img/logomark.svg');
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.introduction--arrow {
-  @extend .introduction;
+  // for arrow at the bottom
   &:after {
     content: ' ';
     height: 0;
@@ -36,31 +105,14 @@
   }
 }
 
-.introduction__title {
-  font-size: 35px;
-  font-weight: $font-weight--bold;
-  margin-bottom: 5px;
-  color: $gray-8;
-}
-
-.introduction__subHead {
-  margin-top: 0;
-  font-size: 20px;
-  font-weight: $font-weight--normal;
-  color: $accent-3;
-  @include mq(md) {
-    font-size: 23px;
-  }
-}
 
 
-
+// -------------------------------------------------
 // Features Section
 // -------------------------------------------------
 
 .features {
   background: $gray-2;
-  padding: 50px 0 85px 0;
   text-align: center;
   @include mq(md) {
     text-align: left;
@@ -74,9 +126,6 @@
   }
 }
 
-.feature__description {
-  padding: 60px 0 0 0;
-}
 
 .feature__image {
   display: block;
@@ -84,7 +133,7 @@
 }
 
 
-
+// -------------------------------------------------
 // Technology Section
 // -------------------------------------------------
 
@@ -93,32 +142,14 @@
   background: linear-gradient( $accent-1, $accent-2);
   margin: 0 auto;
   text-align: center;
-  padding: 50px 0 85px;
   img {
     height: 100px;
   }
 }
 
-.technology__title {
-  font-size: 35px;
-  font-weight: $font-weight--bold;
-  margin-bottom: 5px;
-  color: $gray-8;
-}
-
-.technology__subHead {
-  margin-top: 0;
-  font-size: 20px;
-  font-weight: $font-weight--normal;
-  color: $accent-3;
-  @include mq(md) {
-    font-size: 23px;
-  }
-}
-
 .technology__feature {
   padding: 25px 20px;
-  h4 {
+  h3 {
     padding-top: 15px;
   }
   p {
@@ -128,35 +159,21 @@
 }
 
 
+// -------------------------------------------------
 // Services Section
 // -------------------------------------------------
 
+// Services Background
+// ----------------------
 .services {
   background:
     url('/img/linegraph-bg.svg'),
     linear-gradient(to left, #203966, $accent-4);
-  padding: 50px 0 150px 0;
   text-align: center;
 }
 
-.services__title {
-  font-size: 35px;
-  font-weight: $font-weight--bold;
-  margin-bottom: 5px;
-  color: white;
-}
-
-.services__subHead {
-  margin-top: 0;
-  padding-bottom: 50px;
-  font-size: 20px;
-  font-weight: $font-weight--normal;
-  color: $brand-2;
-  @include mq(md) {
-    font-size: 23px;
-  }
-}
-
+// Services Features
+// -----------------------
 [class^="services__feature--"] {
   display: block;
   height: 300px;
@@ -166,6 +183,7 @@
   background-repeat: no-repeat;
   transition: .5s;
   position: relative;
+
   &:hover {
     box-shadow: 0 0 20px 10px rgba(black, .2);
     z-index: 100;
@@ -178,6 +196,9 @@
     }
   }
 }
+
+// Services Background Images
+// ----------------------
 
 .services__feature--senior {
   background-image: url('/img/services-senior.jpg');
@@ -192,21 +213,15 @@
   background-image: url('/img/services-patient.jpg');
 }
 
+// Services Feature Text
+// ----------------------
+
 .services__feature__description,
 .services__feature__title {
   opacity: 0;
   color: white;
   text-shadow: 0 0 1px rgba(black, .5);
   transition: .05s;
-}
-
-.services__feature__container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  margin: auto;
 }
 
 .services__feature__overlay {
@@ -226,60 +241,30 @@
 
 .licensing {
   background: linear-gradient($accent-1, $accent-2);
-  padding: 50px 0 85px 0;
   text-align: center;
+  p {
+    overflow: hidden;
+  }
   @include mq(md) {
     text-align: left;
-  }
-  p {
-    color: $accent-4;
-    font-size: 14px;
-  }
-  h4 {
-    color: $accent-3;
-    padding-top: 15px;
   }
 }
 
 .licensing__icon {
-  padding-top: 40px;
   @include mq(md) {
-    padding: 40px 25px 60px 0;
+    padding: 0 25px 0 0;
     float: left;
   }
 }
 
-.licensing__title {
-  color: $gray-8;
-  text-align: center;
-}
 
-p.licensing__subhead {
-  text-align: center;
-  font-size: 20px;
-  color: $accent-3;
-  margin-top: 0;
-  padding-bottom: 25px;
-  @include mq(md) {
-    font-size: 23px;
-  }
-}
 
 // Team Section
 // -------------------------------------------------
 
 .team {
   background: $gray-2;
-  padding: 90px 0;
   text-align: center;
-  h4 {
-    font-size: 20px;
-    padding-top: 35px;
-    margin-bottom: 5px;
-    @include mq(md) {
-      font-size: 23px;
-    }
-  }
   p {
     color: $gray-5;
   }
@@ -289,9 +274,9 @@ p.licensing__subhead {
   background-color: $accent-3;
   border: 5px solid $accent-3;
   border-radius: 50%;
-  height: 175px;
-  width: 175px;
-  margin-top: 40px;
+  height: 150px;
+  width: 150px;
+  margin: 40px 0;
 }
 
 
@@ -300,7 +285,6 @@ p.licensing__subhead {
 // -------------------------------------------------
 
 .contact {
-  padding: 50px 0 120px 0;
   background:
     linear-gradient($brand-3, $brand-2);
   @include mq(md) {
@@ -314,25 +298,5 @@ p.licensing__subhead {
       linear-gradient($brand-1-transparent, $brand-3-transparent),
       url('/img/contact-bg.jpg') no-repeat top center;
       background-size: cover;
-  }
-}
-
-.contact__title {
-  color: $gray-8;
-  margin-bottom: 0;
-  text-align: center;
-  @include mq(md) {
-    text-align: left;
-  }
-}
-
-.contact__subHead {
-  margin-top: 0;
-  font-size: 20px;
-  padding-bottom: 30px;
-  text-align: center;
-  @include mq(md) {
-    text-align: left;
-    font-size: 23px;
   }
 }
