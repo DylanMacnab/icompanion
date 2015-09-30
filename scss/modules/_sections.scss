@@ -302,7 +302,7 @@
   @include mq(md) {
     background:
       linear-gradient($brand-1-transparent, $brand-3-transparent),
-      url('../../../img/contact-bg-md.jpg') no-repeat center center;
+      url('../img/contact-bg-md.jpg') no-repeat center center;
       background-size: cover;
     }
   @include mq(lg) {
