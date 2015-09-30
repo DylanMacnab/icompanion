@@ -4,11 +4,13 @@
 // **************************************************
 
 
+
+// ---------------------------------------------------
 // Section Spacing
 // ---------------------------------------------------
 
 
-// Space--Section
+// Standard Section Spacing
 // ------------------------
 .space--section {
   padding: 95px 0;
@@ -20,7 +22,7 @@
 }
 
 
-// Space--inner
+// Spacing for inside sections
 // -------------------------
 .space--inner {
   padding-top: 80px;
@@ -34,12 +36,13 @@
 
 
 
+// ---------------------------------------------------
 // Section Typography
 // ---------------------------------------------------
 
 
-// Section Titles
-// -------------------
+// Standard Section Title
+// ----------------------
 .section__title {
   font-weight: $font-weight--bold;
   margin-bottom: 5px;
@@ -52,8 +55,8 @@
 }
 
 
-// Section SubHeadings
-// -------------------
+// Standard Section Subhead
+// ------------------------
 .section__subHead {
   margin-top: 0;
   padding-top: 0;
@@ -76,8 +79,9 @@
 }
 
 
+
 // -------------------------------------------------
-// Intro for Sections - with background branding
+// Section Intro Header (branded)
 // -------------------------------------------------
 
 .section__intro {
@@ -120,17 +124,17 @@
 }
 
 .feature {
-  border-bottom: 1px solid darken($gray-2, 10%);
+  border-bottom: 1px solid darken($gray-2, 5%);
   &:last-of-type {
     border-bottom: none;
   }
 }
 
-
 .feature__image {
   display: block;
   margin: 0 auto;
 }
+
 
 
 // -------------------------------------------------
@@ -157,6 +161,7 @@
     font-size: 14px;
   }
 }
+
 
 
 // -------------------------------------------------
@@ -236,6 +241,7 @@
 
 
 
+// -------------------------------------------------
 // Licensing Section
 // -------------------------------------------------
 
@@ -259,6 +265,7 @@
 
 
 
+// -------------------------------------------------
 // Team Section
 // -------------------------------------------------
 
@@ -281,6 +288,7 @@
 
 
 
+// -------------------------------------------------
 // Contact Section
 // -------------------------------------------------
 
