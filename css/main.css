@@ -1204,27 +1204,6 @@ img {
   border-bottom: 2px solid #FFE98D;
   height: 70px; }
 
-.navbar__burger {
-  position: absolute;
-  right: 25px;
-  top: 16px;
-  border-radius: 3px;
-  border: 1px solid #3A3D3F;
-  padding: 5px; }
-  @media (min-width: 992px) {
-    .navbar__burger {
-      display: none; } }
-  .navbar__burger:hover {
-    border: 1px solid #3A3D3F;
-    background: rgba(255, 255, 255, 0.3); }
-
-.line {
-  height: 3px;
-  margin: 4px 3px;
-  width: 30px;
-  display: block;
-  background: #3A3D3F; }
-
 .navbar--right {
   display: none; }
   @media (min-width: 992px) {
@@ -1234,7 +1213,11 @@ img {
 
 .navbar__logo {
   padding: 15px;
-  overflow: hidden; }
+  overflow: hidden;
+  text-align: center; }
+  @media (min-width: 992px) {
+    .navbar__logo {
+      text-align: left; } }
 
 .navbar__link {
   display: inline-block;

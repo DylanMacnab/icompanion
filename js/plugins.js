@@ -21,17 +21,24 @@
     }
 }());
 
+
 // Place any jQuery/helper plugins in here.
-
-
-
-// Hamburger animation
+// ---------------------------------------------------
 // ---------------------------------------------------
 
-$( document ).ready(function() {
-  var hamburger = $('#hamburger-icon');
-  hamburger.click(function() {
-     hamburger.toggleClass('active');
-     return false;
-  });
-});
+
+// Scroll from anchor to ID
+// ------------------------
+
+$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});

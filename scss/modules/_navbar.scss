@@ -12,32 +12,6 @@
   height: 70px;
 }
 
-// Navbar Hamburger
-// -------------------------
-.navbar__burger {
-  position: absolute;
-  right: 25px;
-  top: 16px;
-  border-radius: 3px;
-  border: 1px solid $gray-8;
-  padding: 5px;
-  @include mq("md") {
-    display: none;
-  }
-  &:hover {
-    border: 1px solid $gray-8;
-    background: rgba(white, .3)
-  }
-}
-
-.line {
-  height: 3px;
-  margin: 4px 3px;
-  width: 30px;
-  display: block;
-  background: $gray-8;
-}
-
 
 // Navbar links layout
 // -------------------------
@@ -56,6 +30,10 @@
 .navbar__logo {
   padding: 15px;
   overflow: hidden;
+  text-align: center;
+  @include mq(md) {
+    text-align: left;
+  }
 }
 
 
