@@ -89,7 +89,7 @@
   background: white;
   margin: 0 auto;
   text-align: center;
-  background-image: url('img/logomark.svg');
+  background-image: url('../../img/logomark.svg');
   background-position: center;
   background-repeat: no-repeat;
   // for arrow at the bottom
@@ -172,7 +172,7 @@
 // ----------------------
 .services {
   background:
-    url('img/linegraph-bg.svg'),
+    url('../../img/linegraph-bg.svg'),
     linear-gradient(to left, #203966, $accent-4);
   text-align: center;
 }
@@ -206,16 +206,16 @@
 // ----------------------
 
 .services__feature--senior {
-  background-image: url('img/services-senior.jpg');
+  background-image: url('../../img/services-senior.jpg');
 }
 .services__feature--student {
-  background-image: url('img/services-student.jpg');
+  background-image: url('../../img/services-student.jpg');
 }
 .services__feature--athlete {
-  background-image: url('img/services-athlete.jpg');
+  background-image: url('../../img/services-athlete.jpg');
 }
 .services__feature--patient {
-  background-image: url('img/services-patient.jpg');
+  background-image: url('../../img/services-patient.jpg');
 }
 
 // Services Feature Text
@@ -302,13 +302,13 @@
   @include mq(md) {
     background:
       linear-gradient($brand-1-transparent, $brand-3-transparent),
-      url('img/contact-bg-md.jpg') no-repeat center center;
+      url('../../img/contact-bg-md.jpg') no-repeat center center;
       background-size: cover;
     }
   @include mq(lg) {
     background:
       linear-gradient($brand-1-transparent, $brand-3-transparent),
-      url('img/contact-bg.jpg') no-repeat top center;
+      url('../../img/contact-bg.jpg') no-repeat top center;
       background-size: cover;
   }
 }

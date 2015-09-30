@@ -1374,7 +1374,7 @@ img {
   background: white;
   margin: 0 auto;
   text-align: center;
-  background-image: url("img/logomark.svg");
+  background-image: url("../../img/logomark.svg");
   background-position: center;
   background-repeat: no-repeat; }
   .section__intro:after {
@@ -1425,8 +1425,8 @@ img {
     font-size: 14px; }
 
 .services {
-  background: url("img/linegraph-bg.svg"), -webkit-linear-gradient(right, #203966, #147D96);
-  background: url("img/linegraph-bg.svg"), linear-gradient(to left, #203966, #147D96);
+  background: url("../../img/linegraph-bg.svg"), -webkit-linear-gradient(right, #203966, #147D96);
+  background: url("../../img/linegraph-bg.svg"), linear-gradient(to left, #203966, #147D96);
   text-align: center; }
 
 [class^="services__feature--"] {
@@ -1449,16 +1449,16 @@ img {
       background: rgba(253, 206, 3, 0.9); }
 
 .services__feature--senior {
-  background-image: url("img/services-senior.jpg"); }
+  background-image: url("../../img/services-senior.jpg"); }
 
 .services__feature--student {
-  background-image: url("img/services-student.jpg"); }
+  background-image: url("../../img/services-student.jpg"); }
 
 .services__feature--athlete {
-  background-image: url("img/services-athlete.jpg"); }
+  background-image: url("../../img/services-athlete.jpg"); }
 
 .services__feature--patient {
-  background-image: url("img/services-patient.jpg"); }
+  background-image: url("../../img/services-patient.jpg"); }
 
 .services__feature__description,
 .services__feature__title {
@@ -1515,11 +1515,11 @@ img {
   background: linear-gradient(#FDD835, #FFE05C); }
   @media (min-width: 992px) {
     .contact {
-      background: -webkit-linear-gradient(rgba(255, 233, 151, 0.3), rgba(253, 216, 53, 0.1)), url("img/contact-bg-md.jpg") no-repeat center center;
-      background: linear-gradient(rgba(255, 233, 151, 0.3), rgba(253, 216, 53, 0.1)), url("img/contact-bg-md.jpg") no-repeat center center;
+      background: -webkit-linear-gradient(rgba(255, 233, 151, 0.3), rgba(253, 216, 53, 0.1)), url("../../img/contact-bg-md.jpg") no-repeat center center;
+      background: linear-gradient(rgba(255, 233, 151, 0.3), rgba(253, 216, 53, 0.1)), url("../../img/contact-bg-md.jpg") no-repeat center center;
       background-size: cover; } }
   @media (min-width: 1200px) {
     .contact {
-      background: -webkit-linear-gradient(rgba(255, 233, 151, 0.3), rgba(253, 216, 53, 0.1)), url("img/contact-bg.jpg") no-repeat top center;
-      background: linear-gradient(rgba(255, 233, 151, 0.3), rgba(253, 216, 53, 0.1)), url("img/contact-bg.jpg") no-repeat top center;
+      background: -webkit-linear-gradient(rgba(255, 233, 151, 0.3), rgba(253, 216, 53, 0.1)), url("../../img/contact-bg.jpg") no-repeat top center;
+      background: linear-gradient(rgba(255, 233, 151, 0.3), rgba(253, 216, 53, 0.1)), url("../../img/contact-bg.jpg") no-repeat top center;
       background-size: cover; } }
