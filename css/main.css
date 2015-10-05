@@ -1254,22 +1254,22 @@ img {
 
 .hero {
   background-color: red;
-  background: url("/img/linegraph.svg") no-repeat 95% 90%, -webkit-linear-gradient(#FFE05C, #FDD835);
-  background: url("/img/linegraph.svg") no-repeat 95% 90%, linear-gradient(#FFE05C, #FDD835);
+  background: url("../img/linegraph.svg") no-repeat 95% 90%, -webkit-linear-gradient(#FFE05C, #FDD835);
+  background: url("../img/linegraph.svg") no-repeat 95% 90%, linear-gradient(#FFE05C, #FDD835);
   position: relative;
   background-size: 120% auto, contain; }
   @media (min-width: 992px) {
     .hero {
-      background: url("/img/linegraph.svg") no-repeat 95% 90%, -webkit-linear-gradient(#FFE05C, #FDD835);
-      background: url("/img/linegraph.svg") no-repeat 95% 90%, linear-gradient(#FFE05C, #FDD835);
+      background: url("../img/linegraph.svg") no-repeat 95% 90%, -webkit-linear-gradient(#FFE05C, #FDD835);
+      background: url("../img/linegraph.svg") no-repeat 95% 90%, linear-gradient(#FFE05C, #FDD835);
       background-size: 80% auto, contain; } }
   @media (min-width: 1200px) {
     .hero {
-      background: url("/img/linegraph.svg") no-repeat 90% 110%, -webkit-linear-gradient(#FFE05C, #FDD835);
-      background: url("/img/linegraph.svg") no-repeat 90% 110%, linear-gradient(#FFE05C, #FDD835);
+      background: url("../img/linegraph.svg") no-repeat 90% 110%, -webkit-linear-gradient(#FFE05C, #FDD835);
+      background: url("../img/linegraph.svg") no-repeat 90% 110%, linear-gradient(#FFE05C, #FDD835);
       background-size: 65% auto, contain; } }
   .hero p {
-    font-size: 19px; }
+    font-size: 18px; }
 
 .hero__intro {
   text-align: center;
