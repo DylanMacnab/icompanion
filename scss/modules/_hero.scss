@@ -10,17 +10,20 @@
 .hero {
   background-color: red;
   background:
+    url('../img/linegraph.svg') no-repeat 95% 90%,
     linear-gradient( $brand-2, $brand-3);
   position: relative;
   background-size: 120% auto, contain;
 
   @include mq("md") {
     background:
+      url('../img/linegraph.svg') no-repeat 95% 90%,
       linear-gradient( $brand-2, $brand-3);
     background-size: 80% auto, contain;
   }
   @include mq("lg") {
     background:
+      url('../img/linegraph.svg') no-repeat 90% 110%,
       linear-gradient( $brand-2, $brand-3);
     background-size: 65% auto, contain;
   }
