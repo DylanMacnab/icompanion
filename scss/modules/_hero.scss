@@ -16,10 +16,10 @@
   background-size: 120% auto, contain;
 
   @include mq("md") {
-    background: black;
-      //url('../img/linegraph.svg') no-repeat 95% 90%,
-      //linear-gradient( $brand-2, $brand-3);
-  //  background-size: 80% auto, contain;
+    background:
+      url('../img/linegraph.svg') no-repeat 95% 90%,
+      linear-gradient( $brand-2, $brand-3);
+    background-size: 80% auto, contain;
   }
   @include mq("lg") {
     background:
